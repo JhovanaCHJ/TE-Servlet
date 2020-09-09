@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.emergentes;
 
 import java.io.IOException;
@@ -14,10 +10,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- *
- * @author Omen
- */
 @WebServlet(name = "InfoCabeceras", urlPatterns = {"/InfoCabeceras"})
 public class InfoCabeceras extends HttpServlet {
 
@@ -55,14 +47,5 @@ public class InfoCabeceras extends HttpServlet {
        
     }
 
-    /**
-     * Returns a short description of the servlet.
-     *
-     * @return a String containing servlet description
-     */
-    @Override
-    public String getServletInfo() {
-        return "Short description";
-    }// </editor-fold>
-
+    
 }
